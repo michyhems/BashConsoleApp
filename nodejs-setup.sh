@@ -1,8 +1,8 @@
 #!/bin/bash
 #Initialise dependencies
 npm init -y
-npm i express mongoose cors
-npm i --save-dev dotenv nodemon
+npm i express mongoose cors dotenv
+npm i --save-dev nodemon
 
 #Update package.json
 jq 'del(.scripts.test)' package.json > package2.json && mv package2.json package.json
