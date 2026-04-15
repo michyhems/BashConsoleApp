@@ -1,5 +1,7 @@
 # Bash Console Application : Node.js Backend Skeleton
 This bash script generates a Node.js skeleton server that accepts requests from the frontend, queries a mongodb database and returns the result back to the frontend. 
+
+[GitHub repository](https://github.com/michyhems/BashConsoleApp)
 <br>
 **Note:** The user guide is at the bottom of this README
 ## Problem Space
